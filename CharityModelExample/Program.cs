@@ -14,6 +14,7 @@ namespace CharityModelExample
             List<Skill> skills = initializer.fillSkills();
             List<Skill> cSharpSkills = skills.Where(s => s.Title.Contains("C#")).ToList();
 
+            Console.WriteLine();
             
 
             foreach(Skill s in cSharpSkills)
